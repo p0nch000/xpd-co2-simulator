@@ -1,2 +1,2 @@
 # xpd-co2-simulator
-Te recomiendo xpd-co2-simulator si lo quieres mantener referenciado al proyecto, o logistics-co2-simulator si quieres que suene más genérico/reutilizable para el portafolio.
+A Streamlit-based CO₂ logistics simulator that models fleet emissions across two operational scenarios. Supports refrigerated transport, urban proportional routing, idle consumption, dynamic fuel factors, and Excel audit exports.
