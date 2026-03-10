@@ -22,7 +22,7 @@ from src.charts import (
     donut_participation,
     scatter_cost_vs_co2,
 )
-from src.constants import DEFAULT_FLEET, DEFAULT_FUELS, DEFAULT_ROUTES, XPD_BLUE, XPD_NAVY
+from src.constants import DEFAULT_FLEET, DEFAULT_FUELS, DEFAULT_ROUTES, XPD_BLUE, XPD_NAVY, XPD_ORANGE
 from src.engine import motor_detallado_v2, resumen_por_ruta, resumen_por_unidad, top3
 from src.export import build_excel_bytes
 from src.persistence import build_payload, read_payload, write_payload
@@ -43,20 +43,35 @@ st.set_page_config(
 # ─────────────────────────────────────────────────────────────────────
 st.markdown(f"""
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    /* ── Global reset ────────────────────────────────── */
+    html, body, [data-testid="stAppViewContainer"] {{
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }}
+
+
     /* ── Header bar ─────────────────────────────────────── */
     header[data-testid="stHeader"] {{
         background: linear-gradient(90deg, {XPD_NAVY} 0%, {XPD_BLUE} 100%);
     }}
 
-    /* ── Section headers ────────────────────────────────── */
-    .stMarkdown h2, .stMarkdown h3 {{
-        color: {XPD_NAVY};
+    /* ── Typography ─────────────────────────────────────── */
+    .stMarkdown h2 {{
+        color: {XPD_NAVY} !important;
+        font-weight: 600 !important;
+        letter-spacing: -0.01em;
+    }}
+    .stMarkdown h3 {{
+        color: {XPD_NAVY} !important;
+        font-weight: 500 !important;
     }}
 
-    /* ── Subheader accent bar ───────────────────────────── */
+    /* ── Subheader accent ───────────────────────────────── */
     [data-testid="stSubheader"] {{
-        border-left: 4px solid {XPD_BLUE};
-        padding-left: 12px;
+        border-left: 3px solid {XPD_BLUE};
+        padding-left: 14px;
     }}
 
     /* ── Primary button ─────────────────────────────────── */
@@ -66,6 +81,8 @@ st.markdown(f"""
         border: none !important;
         color: white !important;
         font-weight: 600;
+        border-radius: 8px !important;
+        transition: all 0.2s ease;
     }}
     .stButton > button[kind="primary"]:hover,
     button[data-testid="stBaseButton-primary"]:hover {{
@@ -78,6 +95,8 @@ st.markdown(f"""
         border: 1.5px solid {XPD_BLUE} !important;
         color: {XPD_BLUE} !important;
         font-weight: 500;
+        border-radius: 8px !important;
+        transition: all 0.2s ease;
     }}
     .stButton > button:not([kind="primary"]):hover,
     button[data-testid="stBaseButton-secondary"]:hover {{
@@ -90,6 +109,7 @@ st.markdown(f"""
         border: 1.5px solid {XPD_BLUE} !important;
         color: {XPD_BLUE} !important;
         font-weight: 500;
+        border-radius: 8px !important;
     }}
     .stDownloadButton > button:hover {{
         background-color: {XPD_BLUE} !important;
@@ -130,11 +150,43 @@ st.markdown(f"""
         color: {XPD_NAVY};
     }}
 
-    /* ── Data editor ───────────────────────────────────── */
+    /* ── Data editor / tables ─────────────────────────── */
     .stDataFrame {{
         border: 1px solid {XPD_BLUE}15;
         border-radius: 8px;
     }}
+
+    /* ── XPD styled HTML tables ───────────────────────── */
+    .xpd-table {{
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.85rem;
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid #e2e8f0;
+    }}
+    .xpd-table thead th {{
+        background-color: {XPD_BLUE};
+        color: #ffffff;
+        font-weight: 600;
+        padding: 10px 14px;
+        text-align: left;
+        white-space: nowrap;
+        border-bottom: 2px solid {XPD_NAVY};
+    }}
+    .xpd-table tbody td {{
+        padding: 8px 14px;
+        border-bottom: 1px solid #f0f0f0;
+        color: {XPD_NAVY};
+    }}
+    .xpd-table tbody tr:hover {{
+        background-color: {XPD_BLUE}08;
+    }}
+    .xpd-table tbody tr:nth-child(even) {{
+        background-color: #f9fafb;
+    }}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -148,9 +200,11 @@ if _logo_path.exists():
     <div style="display:flex; align-items:center; gap:16px; margin-bottom:4px;">
         <img src="data:image/png;base64,{_logo_b64}" height="52" />
         <div>
-            <h1 style="margin:0; color:{XPD_NAVY}; font-size:1.8rem;">Simulador CO₂ Logístico</h1>
-            <p style="margin:0; color:#666; font-size:0.9rem;">
-                Precisión operativa · Reportes Ejecutivos · Urbano proporcional · Cadena de frío · Ralentí · Combustibles dinámicos
+            <h1 style="margin:0; color:{XPD_NAVY}; font-size:1.8rem; font-weight:700; letter-spacing:-0.02em; font-family:'Inter',sans-serif;">
+                Simulador CO₂ Logístico
+            </h1>
+            <p style="margin:2px 0 0 0; color:#888; font-size:0.82rem; letter-spacing:0.02em; font-weight:400;">
+                Precisión operativa · Reportes ESG · Cadena de frío · Combustibles dinámicos
             </p>
         </div>
     </div>
@@ -158,8 +212,8 @@ if _logo_path.exists():
 else:
     st.title("Simulador CO₂ Logístico — XPD Global")
     st.caption(
-        "Precisión operativa · Reportes Ejecutivos · "
-        "Urbano proporcional · Cadena de frío · Combustibles dinámicos"
+        "Precisión operativa · Reportes ESG · "
+        "Cadena de frío · Combustibles dinámicos"
     )
 st.divider()
 
@@ -221,6 +275,29 @@ _init_session()
 # ─────────────────────────────────────────────────────────────────────
 # Helpers
 # ─────────────────────────────────────────────────────────────────────
+def _xpd_table(df: pd.DataFrame, fmt: dict | None = None) -> None:
+    """Render a DataFrame as a styled HTML table with XPD blue headers."""
+    if df.empty:
+        st.info("Sin datos.")
+        return
+    fmt = fmt or {}
+    header = "".join(f"<th>{c}</th>" for c in df.columns)
+    rows = []
+    for _, row in df.iterrows():
+        cells = []
+        for c in df.columns:
+            v = row[c]
+            if c in fmt:
+                cells.append(f"<td>{fmt[c].format(v)}</td>")
+            elif isinstance(v, float):
+                cells.append(f"<td>{v:,.2f}</td>")
+            else:
+                cells.append(f"<td>{v}</td>")
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    html = f'<table class="xpd-table"><thead><tr>{header}</tr></thead><tbody>{chr(10).join(rows)}</tbody></table>'
+    st.markdown(html, unsafe_allow_html=True)
+
+
 def _state_hash(prefix: str) -> str:
     return "".join(
         df_hash(st.session_state[f"{prefix}_{s}"])
@@ -373,19 +450,26 @@ if df_hash(comb_edited) != df_hash(st.session_state.work_comb):
 
 st.divider()
 
-# ─────────────────────────────────────────────────────────────────────
+# ───────────────────────────────────────────────────────────────────
 # 4) Fleet Editor (A vs B)
-# ─────────────────────────────────────────────────────────────────────
-st.subheader("4 · Distribución de Flota (A vs B)")
+# ───────────────────────────────────────────────────────────────────
+st.subheader("4 · Distribución de Flota")
+st.caption("Configura la composición vehicular para cada escenario de simulación")
 fuel_list = st.session_state.work_comb["Combustible"].tolist()
 fuel_col_cfg = st.column_config.SelectboxColumn(
     "Combustible", options=fuel_list, required=True,
 )
 
-col_a, col_b = st.columns(2)
-for label, col in [("A", col_a), ("B", col_b)]:
+col_a, col_b = st.columns(2, gap="large")
+for label, col, accent in [("A", col_a, XPD_BLUE), ("B", col_b, XPD_ORANGE)]:
     with col:
-        st.markdown(f"### Escenario {label}")
+        st.markdown(
+            f'<div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">'
+            f'<div style="width:10px; height:10px; border-radius:50%; background:{accent};"></div>'
+            f'<span style="color:{XPD_NAVY}; font-weight:600; font-size:1rem;">Escenario {label}</span>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
         buf_key = f"buf_flota{label}"
         work_key = f"work_flota{label}"
         edited = st.data_editor(
@@ -414,6 +498,7 @@ st.divider()
 # 5) Route Editor (A vs B)
 # ─────────────────────────────────────────────────────────────────────
 st.subheader("5 · Configuración de Rutas")
+st.caption("Red de rutas y parámetros logísticos por escenario")
 routes_col_cfg = {
     "Horas_Demora": st.column_config.NumberColumn(
         "Horas_Demora (h, editable)",
@@ -430,10 +515,16 @@ routes_col_cfg = {
     ),
 }
 
-ra, rb = st.columns(2)
-for label, col in [("A", ra), ("B", rb)]:
+ra, rb = st.columns(2, gap="large")
+for label, col, accent in [("A", ra, XPD_BLUE), ("B", rb, XPD_ORANGE)]:
     with col:
-        st.markdown(f"### Rutas {label}")
+        st.markdown(
+            f'<div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">'
+            f'<div style="width:10px; height:10px; border-radius:50%; background:{accent};"></div>'
+            f'<span style="color:{XPD_NAVY}; font-weight:600; font-size:1rem;">Rutas {label}</span>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
         buf_key = f"buf_rutas{label}"
         work_key = f"work_rutas{label}"
         view = normalizar_rutas(st.session_state[buf_key], km_min)
@@ -547,8 +638,6 @@ if run:
 
     co2A = float(detA["CO2_kg"].sum()) if not detA.empty else 0.0
     co2B = float(detB["CO2_kg"].sum()) if not detB.empty else 0.0
-    costA = float(detA["Costo_MXN"].sum()) if not detA.empty else 0.0
-    costB = float(detB["Costo_MXN"].sum()) if not detB.empty else 0.0
 
     if co2A == 0 and co2B == 0:
         st.error(
@@ -557,11 +646,29 @@ if run:
         )
         st.stop()
 
+    # Persist results so the dashboard survives widget interactions
+    st.session_state.calc_results = {
+        "detA": detA, "detB": detB,
+        "resA": resumen_por_unidad(detA), "resB": resumen_por_unidad(detB),
+        "rutA": resumen_por_ruta(detA), "rutB": resumen_por_ruta(detB),
+    }
+
+# ── Render results (persisted across reruns) ─────────────────────
+if "calc_results" in st.session_state:
+    _r = st.session_state.calc_results
+    detA, detB = _r["detA"], _r["detB"]
+    resA, resB = _r["resA"], _r["resB"]
+    rutA, rutB = _r["rutA"], _r["rutB"]
+
+    co2A = float(detA["CO2_kg"].sum()) if not detA.empty else 0.0
+    co2B = float(detB["CO2_kg"].sum()) if not detB.empty else 0.0
+    costA = float(detA["Costo_MXN"].sum()) if not detA.empty else 0.0
+    costB = float(detB["Costo_MXN"].sum()) if not detB.empty else 0.0
     ahorro_co2 = co2A - co2B
     ahorro_cost = costA - costB
     pct = "—" if co2A == 0 else f"{(ahorro_co2 / co2A) * 100:.1f}%"
 
-    # ── KPIs ─────────────────────────────────────────────────────
+    # ── KPIs ─────────────────────────────────────────────────
     st.subheader("Resultados Consolidados")
     k1, k2, k3, k4 = st.columns(4)
     k1.metric("CO₂ A (kg)", f"{co2A:,.0f}")
@@ -570,28 +677,16 @@ if run:
     k4.metric("Costo Operativo B", f"${costB:,.0f}", delta=f"${-ahorro_cost:,.0f}")
     st.divider()
 
-    # ── Summaries ────────────────────────────────────────────────
-    resA = resumen_por_unidad(detA)
-    resB = resumen_por_unidad(detB)
-    rutA = resumen_por_ruta(detA)
-    rutB = resumen_por_ruta(detB)
-
+    # ── Summaries ────────────────────────────────────────────
     st.subheader("Desglose y Participación (%)")
     c1, c2 = st.columns(2)
+    _tbl_fmt = {"%_CO2": "{:.1f}%", "CO2_kg_por_km": "{:.2f}", "CO2_kg": "{:,.0f}", "Costo_MXN": "${:,.0f}", "Costo_por_km": "${:,.2f}"}
     with c1:
         st.markdown("### Unidades — Escenario A")
-        if not resA.empty:
-            st.dataframe(
-                resA.style.format({"%_CO2": "{:.1f}%", "CO2_kg_por_km": "{:.2f}"}),
-                use_container_width=True,
-            )
+        _xpd_table(resA, _tbl_fmt)
     with c2:
         st.markdown("### Unidades — Escenario B")
-        if not resB.empty:
-            st.dataframe(
-                resB.style.format({"%_CO2": "{:.1f}%", "CO2_kg_por_km": "{:.2f}"}),
-                use_container_width=True,
-            )
+        _xpd_table(resB, _tbl_fmt)
 
     st.subheader("Top 3 Drivers de Contaminación")
     t1, t2, t3, t4 = st.columns(4)
@@ -604,7 +699,7 @@ if run:
         with col:
             st.markdown(f"**{title}**")
             if not data.empty:
-                st.dataframe(top3(data)[cols], use_container_width=True)
+                _xpd_table(top3(data)[cols], {"%_CO2": "{:.1f}%", "CO2_kg": "{:,.0f}"})
     st.divider()
 
     # ── Comparative Bar Chart ────────────────────────────────────
@@ -614,7 +709,7 @@ if run:
         st.altair_chart(bar_co2_by_vehicle(comp), use_container_width=True)
     st.divider()
 
-    # ── Audit Export ─────────────────────────────────────────────
+    # ── Audit Export ─────────────────────────────────────────
     audit_sheets = {
         "Resumen_Unidades_A": resA,
         "Resumen_Unidades_B": resB,
@@ -631,9 +726,9 @@ if run:
     )
 
     with st.expander("Ver desglose matemático exacto (Escenario A)"):
-        st.dataframe(detA, use_container_width=True)
+        _xpd_table(detA, {"CO2_kg": "{:,.2f}", "Costo_MXN": "${:,.2f}"})
     with st.expander("Ver desglose matemático exacto (Escenario B)"):
-        st.dataframe(detB, use_container_width=True)
+        _xpd_table(detB, {"CO2_kg": "{:,.2f}", "Costo_MXN": "${:,.2f}"})
 
     # ─────────────────────────────────────────────────────────────
     # 7) Visual Dashboard
@@ -655,7 +750,6 @@ if run:
     ])
 
     with tab1:
-        st.markdown("### Comparativa CO₂ por Tipo de Vehículo (A vs B)")
         if not comp_long.empty:
             st.altair_chart(bar_co2_by_vehicle(comp_long), use_container_width=True)
         st.download_button(
@@ -665,7 +759,6 @@ if run:
         )
 
     with tab2:
-        st.markdown("### CO₂ por Ruta (A vs B)")
         if not ruta_long.empty and "Tramo" in ruta_long.columns:
             st.altair_chart(bar_co2_by_route(ruta_long), use_container_width=True)
         st.download_button(
@@ -675,7 +768,6 @@ if run:
         )
 
     with tab3:
-        st.markdown("### Participación (%) por Unidad")
         if not part_long.empty:
             sel = st.selectbox("Escenario", ["A", "B"], index=0, key="sel_part")
             dfp = part_long[part_long["Escenario"] == sel]
@@ -688,7 +780,6 @@ if run:
         )
 
     with tab4:
-        st.markdown("### Costo vs CO₂ (por unidad)")
         if not part_long.empty:
             st.altair_chart(scatter_cost_vs_co2(part_long), use_container_width=True)
         st.download_button(
@@ -698,7 +789,6 @@ if run:
         )
 
     with tab5:
-        st.markdown("### Eficiencia Ambiental y Financiera")
         if not eff_long.empty:
             st.altair_chart(bar_efficiency(eff_long), use_container_width=True)
         st.download_button(

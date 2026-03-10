@@ -50,40 +50,35 @@ DEFAULT_FUELS = pd.DataFrame({
 })
 
 DEFAULT_FLEET = pd.DataFrame({
-    "Activo": [True, True, True, True, True, True, False],
+    "Activo": [True, True, True, True, True, False, True, True],
     "Unidad": [
         "1.5 T", "3.5 T (Gas)", "3.5 T (Die)",
-        "RABON", "CAJA 53", "EV Van", "Automóvil",
+        "RABON", "CAJA 53", "EV Van", "Torton", "Automóvil",
     ],
     "Combustible": [
         "Gasolina", "Gasolina", "Diesel",
-        "Diesel", "Diesel", "Eléctrico", "Gasolina",
+        "Diesel", "Diesel", "Eléctrico", "Diesel", "Gasolina",
     ],
-    "Flota %": [25.0, 15.0, 20.0, 20.0, 20.0, 0.0, 0.0],
-    "Rend_Seco": [8.0, 5.5, 6.5, 3.5, 1.8, 0.0, 12.0],
-    "Rend_Refri": [6.8, 4.8, 5.5, 3.0, 1.5, 0.0, 12.0],
-    "Refri Global %": [4.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0],
-    "L/hr_Ralenti": [0.6, 1.0, 1.2, 2.0, 3.5, 1.5, 0.4],
-    "kWh_por_km": [0.0, 0.0, 0.0, 0.0, 0.0, 0.28, 0.0],
-    "kWh_por_km_refri": [0.0, 0.0, 0.0, 0.0, 0.0, 0.34, 0.0],
+    "Flota %": [10.0, 7.5, 7.5, 25.0, 35.0, 0.0, 10.0, 5.0],
+    "Rend_Seco": [7.0, 3.5, 5.5, 3.2, 1.8, 0.0, 2.4, 14.0],
+    "Rend_Refri": [5.6, 2.4, 4.4, 2.4, 1.2, 1.0, 1.6, 14.0],
+    "Refri Global %": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+    "L/hr_Ralenti": [5.6, 0.7, 1.1, 2.0, 3.5, 0.0, 2.6, 0.5],
+    "kWh_por_km": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+    "kWh_por_km_refri": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
 })
 
 DEFAULT_ROUTES = pd.DataFrame([
-    {
-        "Tramo": "Guadalajara - Puebla",
-        "KM": 671, "Viajes": 1465,
-        "% Refri Local": np.nan, "% Urbano": 10, "Horas_Demora": 3,
-    },
-    {
-        "Tramo": "CDMX - Tlaxcala",
-        "KM": 118, "Viajes": 2307,
-        "% Refri Local": np.nan, "% Urbano": 70, "Horas_Demora": 4,
-    },
-    {
-        "Tramo": "Guadalajara - Irapuato",
-        "KM": 250, "Viajes": 50,
-        "% Refri Local": 100, "% Urbano": 20, "Horas_Demora": 6,
-    },
+    {"Tramo": "Guadalajara - Puebla", "KM": 671, "Viajes": 1465, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Ciudad De México, MEX - Tlaxcala", "KM": 118, "Viajes": 2307, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Toluca - Puebla", "KM": 191, "Viajes": 1493, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Queretaro, MEX - Tlaxcala", "KM": 310, "Viajes": 904, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "San Luis Potosí, MEX - San Luis Potosí, MEX", "KM": 0, "Viajes": 658, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Uruapan, MEX - San Luis Potosí, MEX", "KM": 400, "Viajes": 614, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Ciudad Juarez, MEX - Toluca", "KM": 1777, "Viajes": 575, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Queretaro - Puebla, MEX", "KM": 330, "Viajes": 515, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Queretaro, MEX - Aguascalientes, MEX", "KM": 200, "Viajes": 507, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
+    {"Tramo": "Tlaxcala, MEX - Ciudad De México, MEX", "KM": 118, "Viajes": 485, "% Refri Local": np.nan, "% Urbano": 0, "Horas_Demora": np.nan},
 ])
 
 # ── Fleet / Route Column Specs ──────────────────────────────────────
