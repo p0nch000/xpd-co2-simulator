@@ -1,0 +1,2497 @@
+{
+  "saved_at": "2026-03-10T08:50:31",
+  "flota_A": [
+    {
+      "Activo": true,
+      "Unidad": "1.5 T",
+      "Combustible": "Gasolina",
+      "Flota %": 10,
+      "Rend_Seco": 7,
+      "Rend_Refri": 5.6,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 5.6,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "3.5 T (Gas)",
+      "Combustible": "Gasolina",
+      "Flota %": 7.5,
+      "Rend_Seco": 3.5,
+      "Rend_Refri": 2.4,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 0.7,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "3.5 T (Die)",
+      "Combustible": "Diesel",
+      "Flota %": 7.5,
+      "Rend_Seco": 5.5,
+      "Rend_Refri": 4.4,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 1.1,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "RABON",
+      "Combustible": "Diesel",
+      "Flota %": 25,
+      "Rend_Seco": 3.2,
+      "Rend_Refri": 2.4,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 2.0,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "CAJA 53",
+      "Combustible": "Diesel",
+      "Flota %": 35,
+      "Rend_Seco": 1.8,
+      "Rend_Refri": 1.2,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 3.5,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": false,
+      "Unidad": "EV Van",
+      "Combustible": "Eléctrico",
+      "Flota %": 0,
+      "Rend_Seco": 0,
+      "Rend_Refri": 1,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 0,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "Torton",
+      "Combustible": "Diesel",
+      "Flota %": 10,
+      "Rend_Seco": 2.4,
+      "Rend_Refri": 1.6,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 2.6,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "Automóvil",
+      "Combustible": "Gasolina",
+      "Flota %": 5,
+      "Rend_Seco": 14,
+      "Rend_Refri": 14,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 0.5,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    }
+  ],
+  "flota_B": [
+    {
+      "Activo": true,
+      "Unidad": "1.5 T",
+      "Combustible": "Gasolina",
+      "Flota %": 0,
+      "Rend_Seco": 7,
+      "Rend_Refri": 5.6,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 5.6,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "3.5 T (Gas)",
+      "Combustible": "Gasolina",
+      "Flota %": 0,
+      "Rend_Seco": 3.5,
+      "Rend_Refri": 2.4,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 0.7,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "3.5 T (Die)",
+      "Combustible": "Diesel",
+      "Flota %": 0,
+      "Rend_Seco": 5.5,
+      "Rend_Refri": 4.4,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 1.1,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "RABON",
+      "Combustible": "Diesel",
+      "Flota %": 0,
+      "Rend_Seco": 3.2,
+      "Rend_Refri": 2.4,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 2.0,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "CAJA 53",
+      "Combustible": "Diesel",
+      "Flota %": 100,
+      "Rend_Seco": 1.8,
+      "Rend_Refri": 1.2,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 3.5,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": false,
+      "Unidad": "EV Van",
+      "Combustible": "Eléctrico",
+      "Flota %": 0,
+      "Rend_Seco": 0,
+      "Rend_Refri": 1,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 0,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "Torton",
+      "Combustible": "Diesel",
+      "Flota %": 0,
+      "Rend_Seco": 2.4,
+      "Rend_Refri": 1.6,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 2.6,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    },
+    {
+      "Activo": true,
+      "Unidad": "Automóvil",
+      "Combustible": "Gasolina",
+      "Flota %": 0,
+      "Rend_Seco": 14,
+      "Rend_Refri": 14,
+      "Refri Global %": 0,
+      "L/hr_Ralenti": 0.5,
+      "kWh_por_km": 0,
+      "kWh_por_km_refri": 0
+    }
+  ],
+  "rutas_A": [
+    {
+      "Tramo": "Guadalajara - Puebla",
+      "KM": 671,
+      "Viajes": 1465,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Tlaxcala",
+      "KM": 118,
+      "Viajes": 2307,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - San Luis Potosí, MEX",
+      "KM": 35,
+      "Viajes": 658,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Uruapan, MEX - San Luis Potosí, MEX",
+      "KM": 400,
+      "Viajes": 614,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - Toluca",
+      "KM": 1777,
+      "Viajes": 575,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Tlaxcala",
+      "KM": 310,
+      "Viajes": 904,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Silao, MEX",
+      "KM": 35,
+      "Viajes": 334,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Aguascalientes, MEX",
+      "KM": 35,
+      "Viajes": 319,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Arteaga, MEX - Ciudad Juarez, MEX",
+      "KM": 1103,
+      "Viajes": 318,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Torreon, MEX - Tlaxcala, MEX",
+      "KM": 1093,
+      "Viajes": 314,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Queretaro, MEX",
+      "KM": 35,
+      "Viajes": 406,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Queretaro - Puebla, MEX",
+      "KM": 330,
+      "Viajes": 515,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Nuevo Laredo, MEX",
+      "KM": 720,
+      "Viajes": 301,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Celaya, MEX - San Luis Potosí, MEX",
+      "KM": 180,
+      "Viajes": 299,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Toluca - Puebla",
+      "KM": 191,
+      "Viajes": 1493,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Torreon, MEX - Santa Cruz Quilehtla, MEX",
+      "KM": 1110,
+      "Viajes": 285,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Monterrey - Santa Cruz Quilehtla, MEX",
+      "KM": 1015,
+      "Viajes": 280,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - Aguascalientes",
+      "KM": 1280,
+      "Viajes": 279,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Puebla, MEX - San Luis Potosí, MEX",
+      "KM": 516,
+      "Viajes": 273,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Guanajuato",
+      "KM": 170,
+      "Viajes": 257,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tlaxcala, MEX - Ciudad De México, MEX",
+      "KM": 118,
+      "Viajes": 485,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Monterrey",
+      "KM": 710,
+      "Viajes": 307,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Saltillo, MEX - Saltillo, MEX",
+      "KM": 35,
+      "Viajes": 396,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Toluca, MEX - Tlaxcala",
+      "KM": 180,
+      "Viajes": 343,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Pedro Cholula, MEX - Apaseo El Grande, MEX",
+      "KM": 315,
+      "Viajes": 216,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Saltillo",
+      "KM": 530,
+      "Viajes": 212,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Martin Texmelucan, MEX - Saltillo, MEX",
+      "KM": 930,
+      "Viajes": 210,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guaymas, MEX - San Jose Iturbide, MEX",
+      "KM": 1650,
+      "Viajes": 209,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Silao, MEX - Aguascalientes, MEX",
+      "KM": 165,
+      "Viajes": 206,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Ciudad Juarez, MEX",
+      "KM": 1560,
+      "Viajes": 196,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca- Ciudad Juarez, MEX",
+      "KM": 1777,
+      "Viajes": 266,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guadalajara- Guadalajara",
+      "KM": 35,
+      "Viajes": 249,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Guadalajara, MEX - Toluca",
+      "KM": 460,
+      "Viajes": 178,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Aguascalientes, MEX",
+      "KM": 200,
+      "Viajes": 507,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Toluca - San Jose De Chiapa, MEX",
+      "KM": 245,
+      "Viajes": 380,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Monterrey - Tlaxcala, MEX",
+      "KM": 1001,
+      "Viajes": 174,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca - Toluca, MEX",
+      "KM": 35,
+      "Viajes": 172,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Monterrey",
+      "KM": 512,
+      "Viajes": 240,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca - Ciudad De México, MEX",
+      "KM": 65,
+      "Viajes": 171,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Guanajuato - Guanajuato",
+      "KM": 35,
+      "Viajes": 167,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Chihuahua, MEX - Ciudad Juarez, MEX",
+      "KM": 365,
+      "Viajes": 159,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Ciudad Juarez, MEX",
+      "KM": 1240,
+      "Viajes": 157,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Saltillo - Guanajuato",
+      "KM": 550,
+      "Viajes": 154,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - San Luis Potosí, MEX",
+      "KM": 200,
+      "Viajes": 151,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Guanajuato - Aguascalientes, MEX",
+      "KM": 170,
+      "Viajes": 150,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tlaxcala, MEX - Toluca, MEX",
+      "KM": 180,
+      "Viajes": 247,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Toluca",
+      "KM": 410,
+      "Viajes": 194,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Puebla, MEX - Santa Cruz Quilehtla, MEX",
+      "KM": 35,
+      "Viajes": 138,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Saltillo",
+      "KM": 440,
+      "Viajes": 240,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Ciudad de Mexico - Puebla",
+      "KM": 130,
+      "Viajes": 132,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Toluca, MEX",
+      "KM": 65,
+      "Viajes": 199,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Toluca, MEX - Toluca",
+      "KM": 35,
+      "Viajes": 193,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Silao, MEX - Chihuahua, MEX",
+      "KM": 1200,
+      "Viajes": 124,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "León, MEX - Ciudad Juarez, MEX",
+      "KM": 1560,
+      "Viajes": 119,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - Irapuato, MEX",
+      "KM": 1540,
+      "Viajes": 117,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca, MEX - San Luis Potosí, MEX",
+      "KM": 410,
+      "Viajes": 114,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Queretaro, MEX",
+      "KM": 150,
+      "Viajes": 114,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Martin Texmelucan, MEX - General Cepeda, MEX",
+      "KM": 960,
+      "Viajes": 112,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Silao, MEX",
+      "KM": 150,
+      "Viajes": 163,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Saltillo - Nuevo Laredo, MEX",
+      "KM": 300,
+      "Viajes": 108,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Queretaro - Irapuato",
+      "KM": 100,
+      "Viajes": 207,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tlaxcala, MEX - Celaya, MEX",
+      "KM": 360,
+      "Viajes": 105,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Jose Iturbide, MEX - Ciudad Juarez, MEX",
+      "KM": 1480,
+      "Viajes": 103,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Ciudad Satelite, MEX",
+      "KM": 35,
+      "Viajes": 102,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Queretaro, MEX",
+      "KM": 200,
+      "Viajes": 165,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "León, MEX - San Luis Potosí, MEX",
+      "KM": 185,
+      "Viajes": 100,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Logistik, SL - Aguascalientes, MEX",
+      "KM": 145,
+      "Viajes": 98,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Monterrey- Monterrey, MEX",
+      "KM": 35,
+      "Viajes": 376,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Ciudad de Mexico - Saltillo",
+      "KM": 845,
+      "Viajes": 97,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Ciudad Juarez, MEX",
+      "KM": 1740,
+      "Viajes": 96,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Juan Del Rio, MEX - Aguascalientes, MEX",
+      "KM": 240,
+      "Viajes": 94,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Monterrey, MEX - Saltillo",
+      "KM": 85,
+      "Viajes": 466,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Monterrey, MEX - Jiutepec, MEX",
+      "KM": 982,
+      "Viajes": 84,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Toluca",
+      "KM": 515,
+      "Viajes": 93,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Silao, MEX",
+      "KM": 185,
+      "Viajes": 92,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Jose Iturbide, MEX - Jiutepec, MEX",
+      "KM": 320,
+      "Viajes": 91,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Villa Mariano Matamoros, MEX - Tijuana, MEX",
+      "KM": 2832,
+      "Viajes": 90,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Puebla, MEX - Monterrey, MEX",
+      "KM": 1030,
+      "Viajes": 90,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Puebla, MEX - Tlaxcala, MEX",
+      "KM": 35,
+      "Viajes": 139,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Monterrey, MEX - Ciudad Juarez, MEX",
+      "KM": 1100,
+      "Viajes": 84,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro-Guadalajara",
+      "KM": 350,
+      "Viajes": 159,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - San Jose Iturbide, MEX",
+      "KM": 1480,
+      "Viajes": 83,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guadalajara - Tlaxcala",
+      "KM": 640,
+      "Viajes": 138,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro - Puebla, MEX",
+      "KM": 330,
+      "Viajes": 81,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Romita, MEX",
+      "KM": 300,
+      "Viajes": 79,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Salamanca, MEX",
+      "KM": 45,
+      "Viajes": 79,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Tultitlan, MEX - Saltillo",
+      "KM": 830,
+      "Viajes": 77,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Irapuato, MEX - Silao, MEX",
+      "KM": 40,
+      "Viajes": 77,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Juan Del Rio, MEX - San Juan Del Rio, MEX",
+      "KM": 35,
+      "Viajes": 75,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Ciudad Juarez, MEX",
+      "KM": 1800,
+      "Viajes": 75,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Celaya, MEX - Tlaxcala",
+      "KM": 340,
+      "Viajes": 146,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Hermosillo, MEX",
+      "KM": 1700,
+      "Viajes": 74,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Irapuato, MEX - Guadalajara",
+      "KM": 260,
+      "Viajes": 74,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - San Luis Potosí, MEX",
+      "KM": 185,
+      "Viajes": 73,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Puebla, MEX - Puebla, MEX",
+      "KM": 35,
+      "Viajes": 73,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Guanajuato - Saltillo",
+      "KM": 550,
+      "Viajes": 73,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Valente Díaz, MEX",
+      "KM": 760,
+      "Viajes": 70,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca- Cuajimalpa, MEX",
+      "KM": 40,
+      "Viajes": 66,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Mexicali, MEX - Saltillo",
+      "KM": 1903,
+      "Viajes": 65,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Reynosa, MEX",
+      "KM": 780,
+      "Viajes": 64,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Saltillo",
+      "KM": 630,
+      "Viajes": 64,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Villa De Pozos, MEX - Puebla, MEX",
+      "KM": 520,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Toluca",
+      "KM": 230,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "León, MEX - Saltillo",
+      "KM": 545,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - San Juan Del Rio, MEX",
+      "KM": 1590,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guaymas, MEX - Apaseo El Grande, MEX",
+      "KM": 1620,
+      "Viajes": 62,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tijuana, MEX - Toluca",
+      "KM": 2750,
+      "Viajes": 60,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Tepotzotlan, MEX",
+      "KM": 35,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Monterrey - Nuevo Laredo, MEX",
+      "KM": 220,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Guanajuato -Aguascalientes, MEX",
+      "KM": 170,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "León, MEX - Irapuato, MEX",
+      "KM": 65,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Cuautla, MEX - Saltillo, MEX",
+      "KM": 937,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Irapuato, MEX - Toluca",
+      "KM": 300,
+      "Viajes": 58,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Villa De Reyes, MEX - Aguascalientes, MEX",
+      "KM": 145,
+      "Viajes": 57,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Guadalajara, MEX - Monterrey, MEX",
+      "KM": 790,
+      "Viajes": 57,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Juan Del Rio, MEX - Saltillo",
+      "KM": 675,
+      "Viajes": 56,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Guadalupe, MEX",
+      "KM": 120,
+      "Viajes": 56,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tijuana, MEX - Tlaxcala, MEX",
+      "KM": 2832,
+      "Viajes": 55,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Rio Blanco, MEX - Saltillo",
+      "KM": 1031,
+      "Viajes": 55,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Ciudad De México, MEX",
+      "KM": 35,
+      "Viajes": 55,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Toluca, MEX - General Cepeda, MEX",
+      "KM": 880,
+      "Viajes": 54,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Uruapan, MEX",
+      "KM": 400,
+      "Viajes": 54,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Tlaxcala, MEX",
+      "KM": 490,
+      "Viajes": 53,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Saltillo- Guadalajara",
+      "KM": 680,
+      "Viajes": 52,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Arteaga, MEX - Puebla",
+      "KM": 950,
+      "Viajes": 52,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Apaseo El Grande, MEX - Toluca",
+      "KM": 240,
+      "Viajes": 52,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    }
+  ],
+  "rutas_B": [
+    {
+      "Tramo": "Guadalajara - Puebla",
+      "KM": 671,
+      "Viajes": 1465,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Tlaxcala",
+      "KM": 118,
+      "Viajes": 2307,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - San Luis Potosí, MEX",
+      "KM": 35,
+      "Viajes": 658,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Uruapan, MEX - San Luis Potosí, MEX",
+      "KM": 400,
+      "Viajes": 614,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - Toluca",
+      "KM": 1777,
+      "Viajes": 575,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Tlaxcala",
+      "KM": 310,
+      "Viajes": 904,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Silao, MEX",
+      "KM": 35,
+      "Viajes": 334,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Aguascalientes, MEX",
+      "KM": 35,
+      "Viajes": 319,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Arteaga, MEX - Ciudad Juarez, MEX",
+      "KM": 1103,
+      "Viajes": 318,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Torreon, MEX - Tlaxcala, MEX",
+      "KM": 1093,
+      "Viajes": 314,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Queretaro, MEX",
+      "KM": 35,
+      "Viajes": 406,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Queretaro - Puebla, MEX",
+      "KM": 330,
+      "Viajes": 515,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Nuevo Laredo, MEX",
+      "KM": 720,
+      "Viajes": 301,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Celaya, MEX - San Luis Potosí, MEX",
+      "KM": 180,
+      "Viajes": 299,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Toluca - Puebla",
+      "KM": 191,
+      "Viajes": 1493,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Torreon, MEX - Santa Cruz Quilehtla, MEX",
+      "KM": 1110,
+      "Viajes": 285,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Monterrey - Santa Cruz Quilehtla, MEX",
+      "KM": 1015,
+      "Viajes": 280,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - Aguascalientes",
+      "KM": 1280,
+      "Viajes": 279,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Puebla, MEX - San Luis Potosí, MEX",
+      "KM": 516,
+      "Viajes": 273,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Guanajuato",
+      "KM": 170,
+      "Viajes": 257,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tlaxcala, MEX - Ciudad De México, MEX",
+      "KM": 118,
+      "Viajes": 485,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Monterrey",
+      "KM": 710,
+      "Viajes": 307,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Saltillo, MEX - Saltillo, MEX",
+      "KM": 35,
+      "Viajes": 396,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Toluca, MEX - Tlaxcala",
+      "KM": 180,
+      "Viajes": 343,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Pedro Cholula, MEX - Apaseo El Grande, MEX",
+      "KM": 315,
+      "Viajes": 216,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Saltillo",
+      "KM": 530,
+      "Viajes": 212,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Martin Texmelucan, MEX - Saltillo, MEX",
+      "KM": 930,
+      "Viajes": 210,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guaymas, MEX - San Jose Iturbide, MEX",
+      "KM": 1650,
+      "Viajes": 209,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Silao, MEX - Aguascalientes, MEX",
+      "KM": 165,
+      "Viajes": 206,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Ciudad Juarez, MEX",
+      "KM": 1560,
+      "Viajes": 196,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca- Ciudad Juarez, MEX",
+      "KM": 1777,
+      "Viajes": 266,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guadalajara- Guadalajara",
+      "KM": 35,
+      "Viajes": 249,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Guadalajara, MEX - Toluca",
+      "KM": 460,
+      "Viajes": 178,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Aguascalientes, MEX",
+      "KM": 200,
+      "Viajes": 507,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Toluca - San Jose De Chiapa, MEX",
+      "KM": 245,
+      "Viajes": 380,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Monterrey - Tlaxcala, MEX",
+      "KM": 1001,
+      "Viajes": 174,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca - Toluca, MEX",
+      "KM": 35,
+      "Viajes": 172,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Monterrey",
+      "KM": 512,
+      "Viajes": 240,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca - Ciudad De México, MEX",
+      "KM": 65,
+      "Viajes": 171,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Guanajuato - Guanajuato",
+      "KM": 35,
+      "Viajes": 167,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Chihuahua, MEX - Ciudad Juarez, MEX",
+      "KM": 365,
+      "Viajes": 159,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Ciudad Juarez, MEX",
+      "KM": 1240,
+      "Viajes": 157,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Saltillo - Guanajuato",
+      "KM": 550,
+      "Viajes": 154,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - San Luis Potosí, MEX",
+      "KM": 200,
+      "Viajes": 151,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Guanajuato - Aguascalientes, MEX",
+      "KM": 170,
+      "Viajes": 150,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tlaxcala, MEX - Toluca, MEX",
+      "KM": 180,
+      "Viajes": 247,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Toluca",
+      "KM": 410,
+      "Viajes": 194,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Puebla, MEX - Santa Cruz Quilehtla, MEX",
+      "KM": 35,
+      "Viajes": 138,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Saltillo",
+      "KM": 440,
+      "Viajes": 240,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Ciudad de Mexico - Puebla",
+      "KM": 130,
+      "Viajes": 132,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Toluca, MEX",
+      "KM": 65,
+      "Viajes": 199,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Toluca, MEX - Toluca",
+      "KM": 35,
+      "Viajes": 193,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Silao, MEX - Chihuahua, MEX",
+      "KM": 1200,
+      "Viajes": 124,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "León, MEX - Ciudad Juarez, MEX",
+      "KM": 1560,
+      "Viajes": 119,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - Irapuato, MEX",
+      "KM": 1540,
+      "Viajes": 117,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca, MEX - San Luis Potosí, MEX",
+      "KM": 410,
+      "Viajes": 114,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Queretaro, MEX",
+      "KM": 150,
+      "Viajes": 114,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Martin Texmelucan, MEX - General Cepeda, MEX",
+      "KM": 960,
+      "Viajes": 112,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Silao, MEX",
+      "KM": 150,
+      "Viajes": 163,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Saltillo - Nuevo Laredo, MEX",
+      "KM": 300,
+      "Viajes": 108,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Queretaro - Irapuato",
+      "KM": 100,
+      "Viajes": 207,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tlaxcala, MEX - Celaya, MEX",
+      "KM": 360,
+      "Viajes": 105,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Jose Iturbide, MEX - Ciudad Juarez, MEX",
+      "KM": 1480,
+      "Viajes": 103,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Ciudad Satelite, MEX",
+      "KM": 35,
+      "Viajes": 102,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Queretaro, MEX",
+      "KM": 200,
+      "Viajes": 165,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "León, MEX - San Luis Potosí, MEX",
+      "KM": 185,
+      "Viajes": 100,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Logistik, SL - Aguascalientes, MEX",
+      "KM": 145,
+      "Viajes": 98,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Monterrey- Monterrey, MEX",
+      "KM": 35,
+      "Viajes": 376,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Ciudad de Mexico - Saltillo",
+      "KM": 845,
+      "Viajes": 97,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Ciudad Juarez, MEX",
+      "KM": 1740,
+      "Viajes": 96,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Juan Del Rio, MEX - Aguascalientes, MEX",
+      "KM": 240,
+      "Viajes": 94,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Monterrey, MEX - Saltillo",
+      "KM": 85,
+      "Viajes": 466,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Monterrey, MEX - Jiutepec, MEX",
+      "KM": 982,
+      "Viajes": 84,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Toluca",
+      "KM": 515,
+      "Viajes": 93,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Silao, MEX",
+      "KM": 185,
+      "Viajes": 92,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "San Jose Iturbide, MEX - Jiutepec, MEX",
+      "KM": 320,
+      "Viajes": 91,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Villa Mariano Matamoros, MEX - Tijuana, MEX",
+      "KM": 2832,
+      "Viajes": 90,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Puebla, MEX - Monterrey, MEX",
+      "KM": 1030,
+      "Viajes": 90,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Puebla, MEX - Tlaxcala, MEX",
+      "KM": 35,
+      "Viajes": 139,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Monterrey, MEX - Ciudad Juarez, MEX",
+      "KM": 1100,
+      "Viajes": 84,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro-Guadalajara",
+      "KM": 350,
+      "Viajes": 159,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - San Jose Iturbide, MEX",
+      "KM": 1480,
+      "Viajes": 83,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guadalajara - Tlaxcala",
+      "KM": 640,
+      "Viajes": 138,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro - Puebla, MEX",
+      "KM": 330,
+      "Viajes": 81,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Romita, MEX",
+      "KM": 300,
+      "Viajes": 79,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - Salamanca, MEX",
+      "KM": 45,
+      "Viajes": 79,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Tultitlan, MEX - Saltillo",
+      "KM": 830,
+      "Viajes": 77,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Irapuato, MEX - Silao, MEX",
+      "KM": 40,
+      "Viajes": 77,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "San Juan Del Rio, MEX - San Juan Del Rio, MEX",
+      "KM": 35,
+      "Viajes": 75,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Ciudad Juarez, MEX",
+      "KM": 1800,
+      "Viajes": 75,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Celaya, MEX - Tlaxcala",
+      "KM": 340,
+      "Viajes": 146,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Hermosillo, MEX",
+      "KM": 1700,
+      "Viajes": 74,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Irapuato, MEX - Guadalajara",
+      "KM": 260,
+      "Viajes": 74,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Silao, MEX - San Luis Potosí, MEX",
+      "KM": 185,
+      "Viajes": 73,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Puebla, MEX - Puebla, MEX",
+      "KM": 35,
+      "Viajes": 73,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Guanajuato - Saltillo",
+      "KM": 550,
+      "Viajes": 73,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Valente Díaz, MEX",
+      "KM": 760,
+      "Viajes": 70,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Toluca- Cuajimalpa, MEX",
+      "KM": 40,
+      "Viajes": 66,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Mexicali, MEX - Saltillo",
+      "KM": 1903,
+      "Viajes": 65,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Reynosa, MEX",
+      "KM": 780,
+      "Viajes": 64,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Saltillo",
+      "KM": 630,
+      "Viajes": 64,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Villa De Pozos, MEX - Puebla, MEX",
+      "KM": 520,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Queretaro, MEX - Toluca",
+      "KM": 230,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "León, MEX - Saltillo",
+      "KM": 545,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad Juarez, MEX - San Juan Del Rio, MEX",
+      "KM": 1590,
+      "Viajes": 63,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Guaymas, MEX - Apaseo El Grande, MEX",
+      "KM": 1620,
+      "Viajes": 62,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tijuana, MEX - Toluca",
+      "KM": 2750,
+      "Viajes": 60,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Tepotzotlan, MEX - Tepotzotlan, MEX",
+      "KM": 35,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Monterrey - Nuevo Laredo, MEX",
+      "KM": 220,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Guanajuato -Aguascalientes, MEX",
+      "KM": 170,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "León, MEX - Irapuato, MEX",
+      "KM": 65,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Cuautla, MEX - Saltillo, MEX",
+      "KM": 937,
+      "Viajes": 59,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Irapuato, MEX - Toluca",
+      "KM": 300,
+      "Viajes": 58,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Villa De Reyes, MEX - Aguascalientes, MEX",
+      "KM": 145,
+      "Viajes": 57,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Guadalajara, MEX - Monterrey, MEX",
+      "KM": 790,
+      "Viajes": 57,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Juan Del Rio, MEX - Saltillo",
+      "KM": 675,
+      "Viajes": 56,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Aguascalientes, MEX - Guadalupe, MEX",
+      "KM": 120,
+      "Viajes": 56,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.5,
+      "Demora_Sugerida": "30 min"
+    },
+    {
+      "Tramo": "Tijuana, MEX - Tlaxcala, MEX",
+      "KM": 2832,
+      "Viajes": 55,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Rio Blanco, MEX - Saltillo",
+      "KM": 1031,
+      "Viajes": 55,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Ciudad De México, MEX - Ciudad De México, MEX",
+      "KM": 35,
+      "Viajes": 55,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 0.25,
+      "Demora_Sugerida": "15 min"
+    },
+    {
+      "Tramo": "Toluca, MEX - General Cepeda, MEX",
+      "KM": 880,
+      "Viajes": 54,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Uruapan, MEX",
+      "KM": 400,
+      "Viajes": 54,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "San Luis Potosí, MEX - Tlaxcala, MEX",
+      "KM": 490,
+      "Viajes": 53,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    },
+    {
+      "Tramo": "Saltillo- Guadalajara",
+      "KM": 680,
+      "Viajes": 52,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Arteaga, MEX - Puebla",
+      "KM": 950,
+      "Viajes": 52,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 2.0,
+      "Demora_Sugerida": "2 horas"
+    },
+    {
+      "Tramo": "Apaseo El Grande, MEX - Toluca",
+      "KM": 240,
+      "Viajes": 52,
+      "% Refri Local": NaN,
+      "% Urbano": 0,
+      "Horas_Demora": 1.0,
+      "Demora_Sugerida": "1 hora"
+    }
+  ],
+  "combustibles": [
+    {
+      "Combustible": "Gasolina",
+      "Unidad_Consumo": "L",
+      "Factor_CO2": 2.31,
+      "Precio_Unitario": 23.27
+    },
+    {
+      "Combustible": "Diesel",
+      "Unidad_Consumo": "L",
+      "Factor_CO2": 2.68,
+      "Precio_Unitario": 26.28
+    },
+    {
+      "Combustible": "Eléctrico",
+      "Unidad_Consumo": "kWh",
+      "Factor_CO2": 0.435,
+      "Precio_Unitario": 3.5
+    },
+    {
+      "Combustible": "GNC",
+      "Unidad_Consumo": "L",
+      "Factor_CO2": 2.02,
+      "Precio_Unitario": 11.5
+    }
+  ]
+}
