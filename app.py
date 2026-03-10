@@ -680,13 +680,20 @@ if "calc_results" in st.session_state:
     # ── Summaries ────────────────────────────────────────────
     st.subheader("Desglose y Participación (%)")
     c1, c2 = st.columns(2)
-    _tbl_fmt = {"%_CO2": "{:.1f}%", "CO2_kg_por_km": "{:.2f}", "CO2_kg": "{:,.0f}", "Costo_MXN": "${:,.0f}", "Costo_por_km": "${:,.2f}"}
     with c1:
         st.markdown("### Unidades — Escenario A")
-        _xpd_table(resA, _tbl_fmt)
+        if not resA.empty:
+            st.dataframe(
+                resA.style.format({"%_CO2": "{:.1f}%", "CO2_kg_por_km": "{:.2f}"}),
+                use_container_width=True,
+            )
     with c2:
         st.markdown("### Unidades — Escenario B")
-        _xpd_table(resB, _tbl_fmt)
+        if not resB.empty:
+            st.dataframe(
+                resB.style.format({"%_CO2": "{:.1f}%", "CO2_kg_por_km": "{:.2f}"}),
+                use_container_width=True,
+            )
 
     st.subheader("Top 3 Drivers de Contaminación")
     t1, t2, t3, t4 = st.columns(4)
@@ -699,7 +706,7 @@ if "calc_results" in st.session_state:
         with col:
             st.markdown(f"**{title}**")
             if not data.empty:
-                _xpd_table(top3(data)[cols], {"%_CO2": "{:.1f}%", "CO2_kg": "{:,.0f}"})
+                st.dataframe(top3(data)[cols], use_container_width=True)
     st.divider()
 
     # ── Comparative Bar Chart ────────────────────────────────────
@@ -726,9 +733,9 @@ if "calc_results" in st.session_state:
     )
 
     with st.expander("Ver desglose matemático exacto (Escenario A)"):
-        _xpd_table(detA, {"CO2_kg": "{:,.2f}", "Costo_MXN": "${:,.2f}"})
+        st.dataframe(detA, use_container_width=True)
     with st.expander("Ver desglose matemático exacto (Escenario B)"):
-        _xpd_table(detB, {"CO2_kg": "{:,.2f}", "Costo_MXN": "${:,.2f}"})
+        st.dataframe(detB, use_container_width=True)
 
     # ─────────────────────────────────────────────────────────────
     # 7) Visual Dashboard
