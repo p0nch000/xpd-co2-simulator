@@ -42,7 +42,7 @@ def validar_combustibles(df: pd.DataFrame | None) -> pd.DataFrame:
 
     invalid_units = c[~c["Unidad_Consumo"].isin(ALLOWED_FUEL_UNITS)]
     if not invalid_units.empty:
-        st.error("Unidad_Consumo inválida. Usa solo 'L' o 'kWh'.")
+        st.error("Unidad_Consumo inválida. Usa solo 'L', 'kWh' o 'm³'.")
         st.stop()
 
     return c

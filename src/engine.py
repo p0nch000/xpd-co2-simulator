@@ -141,7 +141,7 @@ def _calc_route_consumption(
             1.0 / max(MIN_EFFECTIVE_LOAD_FACTOR, load_factor)
         )
 
-    # Liquid fuel (L)
+    # Volumetric fuel (L or m³)
     rs = float(vehicle.get("Rend_Seco", 0.0))
     rr = float(vehicle.get("Rend_Refri", 0.0))
     if rs <= 0 or rr <= 0:

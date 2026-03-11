@@ -39,13 +39,25 @@ MIN_EFFECTIVE_URBAN_FACTOR = 0.05
 MIN_EFFECTIVE_LOAD_FACTOR = 0.70
 
 # ── Allowed fuel consumption units ──────────────────────────────────
-ALLOWED_FUEL_UNITS: set[str] = {"L", "kWh"}
+ALLOWED_FUEL_UNITS: set[str] = {"L", "kWh", "m³"}
 
 # ── Default DataFrames ──────────────────────────────────────────────
+# Emission factors (Factor_CO2) — sources & traceability:
+#   Gasolina : 2.32 kg CO₂/L  — EPA GHG Emission Factors Hub 2025, Table 2:
+#              Motor Gasoline = 8.78 kg CO₂/gal ÷ 3.78541 L/gal = 2.319
+#   Diesel   : 2.70 kg CO₂/L  — EPA GHG Emission Factors Hub 2025, Table 2:
+#              Diesel Fuel = 10.21 kg CO₂/gal ÷ 3.78541 L/gal = 2.697
+#   Eléctrico: 0.438 kg CO₂/kWh — SEMARNAT/CRE Aviso Factor de Emisión
+#              del Sistema Eléctrico Nacional 2023 = 0.438 tCO₂e/MWh
+#   GNC      : 1.92 kg CO₂/m³ — EPA GHG Emission Factors Hub 2025, Table 2:
+#              CNG = 0.05444 kg CO₂/scf × 35.3147 scf/m³ = 1.923
+#
+# Ref: https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+#      https://www.gob.mx/cms/uploads/attachment/file/896217/aviso_fesen_2023.pdf
 DEFAULT_FUELS = pd.DataFrame({
     "Combustible": ["Gasolina", "Diesel", "Eléctrico", "GNC"],
-    "Unidad_Consumo": ["L", "L", "kWh", "L"],
-    "Factor_CO2": [2.31, 2.68, 0.435, 2.02],
+    "Unidad_Consumo": ["L", "L", "kWh", "m³"],
+    "Factor_CO2": [2.32, 2.70, 0.438, 1.92],
     "Precio_Unitario": [23.27, 26.28, 3.50, 11.50],
 })
 
